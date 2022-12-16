@@ -22,7 +22,7 @@
         <!-- All News  -->
         <section class="mt-4 md:mt-7">
           <div
-            class="container bg-sky-100 mx-auto p-4 md:p-5 dark:bg-sky-900 dark:text-white"
+            class="container bg-sky-100 mx-auto p-2 md:p-5 dark:bg-sky-900 dark:text-white"
           >
             <div class="flex justify-between items-center">
               <h1 class="font-bold text-2xl">All News</h1>
@@ -187,7 +187,7 @@
               No Trend Post Here!
             </div>
             <div
-              class="grid md:grid-cols-3 gap-10 mt-3"
+              class="grid sm:grid-cols-2 md:grid-cols-3 gap-10 mt-3"
               v-if="trendPost.length > 0"
             >
               <div class="shadow-lg rounded-md" v-for="t in trendPost" :key="t">

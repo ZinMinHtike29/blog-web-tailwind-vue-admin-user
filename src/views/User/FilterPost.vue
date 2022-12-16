@@ -22,7 +22,7 @@
             No Post Here !
           </div>
         </div>
-        <div class="grid md:grid-cols-3 gap-10 mt-3">
+        <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-10 mt-3">
           <div class="shadow-lg rounded-md" v-for="l in postList" :key="l">
             <div class="">
               <img
